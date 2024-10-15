@@ -7,7 +7,6 @@ issue_tracker: https://github.com/CodingWithTashi/simple_barcode_scanner/issues
 platforms:
   android:
   ios:
-  web:
   windows:
 
 environment:
@@ -24,8 +23,6 @@ dependencies:
   path: ^1.8.2
   #checking permissions
   permission_handler: ^10.2.0
-  #Add new web package
-  web: ^1.1.0
   flutter_plugin_android_lifecycle: ^2.0.16
 dev_dependencies:
   flutter_test:
@@ -37,10 +34,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-  # To add assets to your package, add an assets section, like this:
-  assets:
-    - packages/simple_barcode_scanner/assets/barcode.html
-    - packages/simple_barcode_scanner/assets/html5-qrcode.min.js
   plugin:
     platforms:
       android:
